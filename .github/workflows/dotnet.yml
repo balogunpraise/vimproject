@@ -1,4 +1,4 @@
-name: deploy-Heroku
+name: virtimus-project
 
 on:
     push:
@@ -10,13 +10,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: [ '3.1.x', '6.0.x' ]
     steps:
-      - uses: actions/checkout@v2
-        with:
-          dotnet-version: ${{matrix.dotnet-version}}
-          heroku_api_key: ${{secrets.Heroku_API_KEY}}
-          heroku_app_name: ${{secrets.Heroku_APP_NAME}}
-          usedocker: true
+    - uses: actions/checkout@v2
+    - name: Deploying virtimus website project
+      env:
+        HEROKU_API_KEY: e40220a2-b4d7-4645-9a68-cb7431d6d206
+        APP_NAME: virtimus
+      run: |
+        docker build -t vimmvc .
+        docker tag vimmvc registry.heroku.com
+        docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+        heroku container:push web -a $APP_NAME
+        heroku container:release web -a $APP_NAME
