@@ -26,7 +26,6 @@
 
 
 name: virtimus-project
-
 on:
   push:
     branches:
@@ -40,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.14 # This is the action
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: e40220a2-b4d7-4645-9a68-cb7431d6d206
           heroku_app_name: virtimus #Must be unique in Heroku
