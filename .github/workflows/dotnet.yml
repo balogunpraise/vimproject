@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Deploying virtimus website project
       env:
-        HEROKU_API_KEY: ${{env.HEROKU_API_KEY}}
+        HEROKU_API_KEY: e40220a2-b4d7-4645-9a68-cb7431d6d206
         APP_NAME: virtimus
       run: |
         docker build -t vimmvc .
