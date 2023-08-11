@@ -1,0 +1,68 @@
+﻿@using Core.Entities.LinkingEntities;
+@{
+    Layout = "_StudentDashboardLayout";
+    var courses = ViewBag.MyCourses as List<UserCourse>;
+}
+
+<style>
+    .card-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .card-area .course{
+        height: 12rem;
+        width: 10rem;
+        border: solid 1px #000;
+        padding: 5px;
+        position: relative;
+        border-radius: 10px 10px 0 0;
+    }
+    .course .button{
+        width: 94%;
+        height: 40px;
+        padding: 5px 15px;
+        background: #1D7874;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 3px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+    }
+    .course-row .learn{
+            background: #1D7874;
+            
+    }
+    .course-row a{
+        font-size: 1.2rem;
+    }
+</style>
+@if(courses.Count == 0 || courses == null)
+{
+    <h2>You have not enrolled any course yet</h2>
+}
+else
+{
+    <div class="card-area">
+        @foreach (var course in courses)
+        {
+            <div class="course">
+                <a href="#">@course.Course.Name</a>
+                <p>@course.Course.ExpiryDate</p>
+                <div>
+                    <a asp-action="Watch" asp-route-courseId="@course.CourseId" asp-controller="Tutorials" class="button learn">Learn</a>
+                    @*<a asp-action="" asp-controller="" class="button">Unenrol</a>*@
+                </div>
+
+            </div>
+        }
+    </div>
+   
+}
+

@@ -1,0 +1,17 @@
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+C:\Users\pbalogun\Desktop\vimmvc\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

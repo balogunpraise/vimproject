@@ -1,0 +1,1081 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\obj\\Debug\\net6.0\\linux-x64\\scopedcss\\projectbundle\\vimmvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\vimmvc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\css\\ready.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ready.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\css\\ready.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\ready.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\css\\ready.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ready.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\fonts\\line-awesome.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.eot"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\fonts\\line-awesome.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.svg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\fonts\\line-awesome.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.ttf"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\fonts\\line-awesome.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.woff"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\fonts\\line-awesome.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-awesome.woff2"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\menu.png",
+      "PackagePath": "staticwebassets\\assets\\img\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\menu2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\menu2.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\profile2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\profile2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\core\\jquery.3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\jquery.3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\bootstrap-notify\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\bootstrap-toggle\\bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\chart-circle\\circles.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\chart-circle\\circles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\chartist\\chartist.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\chartist\\chartist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\chartist\\plugin\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\jquery.mapael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\france_departments.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\usa_states.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_mercator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-mapael\\maps\\world_countries_miller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-scrollbar\\jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugin\\jquery-ui-1.12.1.custom\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\ready.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ready.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\js\\ready.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ready.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_background.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_components.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_layouts.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_line-awesome.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_line-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_outlinefocus.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_outlinefocus.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_plugins.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_plugins.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_alerts.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_charts.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_dropdowns.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_inputs.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_maps.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_modals.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_modals.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_navbars.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_navbars.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_navpills.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_navpills.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_navsearch.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_navsearch.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_paginations.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_paginations.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_sliders.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_sliders.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\plugins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\plugins\\_chartist.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\plugins\\_jqueryscrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\plugins\\_jqueryui.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\plugins\\_jqueryui.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\sass\\ready\\plugins\\_toggle.scss",
+      "PackagePath": "staticwebassets\\assets\\sass\\ready\\plugins\\_toggle.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\Picture1.png",
+      "PackagePath": "staticwebassets\\img\\Picture1.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\Picture2.png",
+      "PackagePath": "staticwebassets\\img\\Picture2.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\XCLUSIVE-1.JPG",
+      "PackagePath": "staticwebassets\\img\\XCLUSIVE-1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\busy.jpg",
+      "PackagePath": "staticwebassets\\img\\busy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\collection.jpg",
+      "PackagePath": "staticwebassets\\img\\collection.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-1.jpg",
+      "PackagePath": "staticwebassets\\img\\courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-2.jpg",
+      "PackagePath": "staticwebassets\\img\\courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-3.jpg",
+      "PackagePath": "staticwebassets\\img\\courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\guitar.jpg",
+      "PackagePath": "staticwebassets\\img\\guitar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\guitar.png",
+      "PackagePath": "staticwebassets\\img\\guitar.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\jazz.jpg",
+      "PackagePath": "staticwebassets\\img\\jazz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\musicians.png",
+      "PackagePath": "staticwebassets\\img\\musicians.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\paul.jpg",
+      "PackagePath": "staticwebassets\\img\\paul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\piano.png",
+      "PackagePath": "staticwebassets\\img\\piano.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\second_pic (2).jpg",
+      "PackagePath": "staticwebassets\\img\\second_pic (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\trumpet.png",
+      "PackagePath": "staticwebassets\\img\\trumpet.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\trumpet_class.png",
+      "PackagePath": "staticwebassets\\img\\trumpet_class.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\ukwu.jpeg",
+      "PackagePath": "staticwebassets\\img\\ukwu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\ukwuportrait.png",
+      "PackagePath": "staticwebassets\\img\\ukwuportrait.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\vocal.jpg",
+      "PackagePath": "staticwebassets\\img\\vocal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\account.js",
+      "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\linux-x64\\staticwebassets\\msbuild.build.vimmvc.props",
+      "PackagePath": "build\\vimmvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\linux-x64\\staticwebassets\\msbuild.buildMultiTargeting.vimmvc.props",
+      "PackagePath": "buildMultiTargeting\\vimmvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\linux-x64\\staticwebassets\\msbuild.buildTransitive.vimmvc.props",
+      "PackagePath": "buildTransitive\\vimmvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\linux-x64\\staticwebassets\\msbuild.vimmvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

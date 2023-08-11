@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Core.Entities
+@using System.Security.Claims;
+
+@inject SignInManager<ApplicationUser> SigninManager
+@inject UserManager<ApplicationUser> userManager
+
+
+@if (SigninManager.IsSignedIn(User))
+{
+    var username = userManager.GetUserName(User);
+    var user = await userManager.FindByNameAsync(username);
+    var role = await userManager.GetRolesAsync(user);
+    string icontroller;
+    if (role.Contains("Admin"))
+    {
+        icontroller =  "AdminDashboard";
+    }
+    else if (role.Contains("Staff"))
+    {
+        icontroller = "StaffDashboard";
+    }
+    else
+    {
+        icontroller = "StudentDashboard";
+    }
+
+    <a asp-controller="@icontroller" asp-action="Index" class="nav-item nav-link" style="color: #1D7874;">Dashboard</a>
+    @*<a asp-controller="Account" asp-action="Logout" title="logout" class="btn btn-secondary py-4 px-lg-5 d-none d-lg-block"><i class="fa fa-user"></i> Logout</a>*@
+    <a asp-controller="Account" asp-action="Logout" class="nav-item nav-link" style="color: #1D7874;"><i class="fa fa-lock"></i> Logout</a>
+}
+else
+{
+    @*<a asp-controller="Account" asp-action="Index" class="btn btn-secondary py-4 px-lg-5 d-none d-lg-block"><i class="fa fa-lock"></i> Login</a>*@
+    <a asp-controller="Account" asp-action="Index" class="nav-item nav-link" style="color: #1D7874;"><i class="fa fa-lock"></i> Login</a>
+}
+

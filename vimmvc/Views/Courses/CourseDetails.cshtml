@@ -1,0 +1,181 @@
+﻿@using Core.Entities;
+@{
+	Layout = null;
+	var course = ViewBag.SingleCourse as Course;
+}
+<style >
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+  
+}
+
+.my-container {
+	background-color: #fafafa;
+	max-width: 1000px;
+	margin: 0px auto;
+	box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+	display: flex;
+	
+}
+
+.my-container-time {
+	background: url("@course.ImageUrl");
+	background-size: cover;
+	width: 40%;
+	padding: 50px;
+	outline: 3px dashed #998100;
+	outline-offset: -30px;
+	text-align: center;
+}
+.my-container-time img{
+	width: 50%;
+}
+.heading {
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.heading-days {
+	color:#998100;
+	font-size: 30px;
+
+}
+
+.heading-phone {
+	font-size: 20px;
+}
+.container-form {
+	padding: 20px 0;
+	margin: 0 auto;
+	color: #000;
+}
+form {
+	display: grid;
+	grid-row-gap: 20px;
+}
+form p {
+	font-weight: 600;
+}
+.form-field {
+	display: flex;
+	justify-content: space-between;
+}
+
+input,select {
+	pad: 10px 15px;
+}
+
+.page-btn {
+	background-color: rgba(0, 0, 0, .95);
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	font-size: 18px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.page-btn:hover {
+	transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
+
+.btn-div{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.btn-div .page-btn{
+	width: 48%;
+	border-radius: 0px;
+	background-color: #F3BD00;
+}
+.btn-div .first{
+	background-color: #1D7874;
+}
+
+@@media screen and (max-width: 768px) {
+	.my-container {
+		flex-direction: column;
+	}
+	.container-form  {
+		padding: 10px;
+	}
+	.heading-phone {
+		font-size: 17px;
+	}
+	
+}
+
+@@media screen and (min-width: 768px) and (max-width: 880px) {
+	.my-page-btn {
+		padding: 30px;
+	}
+	.container-form  {
+		padding: 10px;
+	}
+	
+	
+}
+</style>
+<body>
+
+	<div class="wrapper">
+
+
+		<div class="my-container">
+			<div class="my-container-time">
+				@*<img src="https://img.freepik.com/free-vector/elegant-musical-notes-music-chord-background_1017-20759.jpg" alt="course cover image" />*@
+			</div>
+
+			<div class="container-form">
+				<form action="#">
+					<h2 class="heading heading-yellow">Reservation Online</h2>
+
+					<div class="form-field">
+						<p>Course Name</p>
+						<input type="text" placeholder="@course.Name" value="@course.Name">
+					</div>
+					<div class="form-field">
+						<p>Description</p>
+						<input type="text" placeholder="@course.Description" value="@course.Description">
+					</div>
+					<div class="form-field">
+						<p>Duration</p>
+						<input type="text" value="@course.Duration">
+					</div>
+					<div class="form-field">
+						<p>Difficulty</p>
+						<input type="text" value="@course.Difficulty">
+					</div>
+					<div class="btn-div">
+						@*<button asp-action="" asp-controller="Payment" asp-route-id="@course.Id" class="page-btn first">Checkout</button>*@
+						<button asp-action="Enrol" asp-controller="Courses" asp-route-courseId="@course.Id" class="page-btn first">Enrol Course</button>
+						<button class="page-btn">Add to cart</button>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

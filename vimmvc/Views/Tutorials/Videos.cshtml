@@ -1,0 +1,58 @@
+﻿@using Core.Entities
+@{
+    Layout = "_GlobalAdminLayout";
+    var courses = ViewBag.CourseName as string;
+    var Videos = ViewBag.Videos as List<TutorialVideos>;
+    var message = ViewBag.Message as string;
+    var error = ViewBag.Error as string;
+}
+
+<style>
+    .card-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .card-area .course{
+        height: 12rem;
+        width: 10rem;
+        border: solid 1px #000;
+        padding: 5px;
+        position: relative;
+        border-radius: 10px 10px 0 0;
+    }
+    .course .button{
+        width: 94%;
+        height: 40px;
+        padding: 5px 15px;
+        background: #1D7874;
+        color: white;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 3px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+    }
+    .course-row .learn{
+            background: #1D7874;
+            
+    }
+    .course-row a{
+        font-size: 1.2rem;
+    }
+</style>
+
+@if(message != null)
+{
+    <p style="color:lightseagreen">@message</p>
+}
+else
+{
+    <p style="color:darkred">@error</p>
+}
+

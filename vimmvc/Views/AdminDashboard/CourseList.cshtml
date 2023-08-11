@@ -1,0 +1,283 @@
+﻿@model vimmvc.ViewModels.CreateCourseViewModel
+@{
+    ViewData["Title"] = "Courses";
+    Layout = "_GlobalAdminLayout";
+    var courses = ViewBag.Courses as List<Core.Entities.Course>;
+    var count = courses.Count();
+    var message = ViewBag.Message;
+}
+<style>
+    .form {
+        /*height: 520px;*/
+        width: 100%;
+        /*background-color: rgba(255,255,255,0.13);*/
+        background-color: white;
+        /*position: absolute;*/
+        /*transform: translate(-50%,-50%);*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        border-radius: 10px;
+        /*backdrop-filter: blur(10px);*/
+        border: 2px solid rgba(255,255,255,0.1);
+        box-shadow: 0 0 40px rgba(8,7,16,0.6);
+        padding: 50px 35px;
+    }
+
+        .form * {
+            font-family: 'Poppins',sans-serif;
+            color: rgb(8,7,16);
+            letter-spacing: 0.5px;
+            outline: none;
+            /*border: none;*/
+        }
+
+        .form h3 {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 42px;
+            text-align: center;
+            color: rgb(8,7,16);
+        }
+
+    .label {
+        display: block;
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(8,7,16);
+    }
+
+    input {
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-color: rgba(255,255,255,0.07);
+        border-radius: 3px;
+        padding: 0 10px;
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: 300;
+        border: 1px solid rgb(8,7,16);
+    }
+    .res{
+        animation: blinking 1.5s linear infinite;
+        margin-left: 3px;
+    }
+    @@-webkit-keyframes blinking {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+    }
+    ::placeholder {
+        color: #080710;
+    }
+</style>
+<div>
+    <div class="d-flex pt-1 pb-1 align-items-center gap-1">
+        <button style="background-color: var(--main-color); color:whitesmoke;" type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Create new course</button>
+
+        @if (message != null)
+        {
+            <p class="res" id="response" style="color: lightseagreen;">
+                @message
+            </p>
+        }
+    </div>
+
+
+    <form asp-action="CreateCourse" enctype="multipart/form-data" asp-controller="Courses">
+        <div id="exampleModal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body form">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Create New Course</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                      
+                        <div class="form-group">
+                            <label asp-for="@Model.CourseTitle">Course Title:</label>
+                            <input type="text" asp-for="@Model.CourseTitle" placeholder="Enter course title" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="@Model.Description">Description:</label>
+                            <input type="text" asp-for="@Model.Description" placeholder="Please add a short description" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Duration">Course Duration:</label>
+                            <input type="text" asp-for="@Model.Duration" placeholder="Enter course duration"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Difficulty">Difficulty:</label>
+                            <select asp-for="@Model.Difficulty" placeholder="Select difficulty" value="Beginner">
+                                <option>Beginner</option>
+                                <option>Intermediate</option>
+                                <option>Advanced</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Price">Price:</label>
+                            <input type="number" asp-for="@Model.Price" placeholder="0.00" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Picture">Upload Photo:</label>
+                            <input type="file" asp-for="@Model.Picture" id="Picture" name="Picture"/>
+                        </div>
+                        <div class="modal-footer">
+                            <button style="background: #E7AB3C !important; border: none;" type="submit" class="btn btn-primary">Save changes</button>
+                            <button style="background: darkred; border: none;" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+    <form enctype="multipart/form-data" asp-action="EditCourse" asp-controller="Courses">
+        <div id="exampleModal1" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body form">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Edit Course</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" asp-for="@Model.Id" hidden id="identifier"/>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.CourseTitle">Course Title:</label>
+                            <input type="text" asp-for="@Model.CourseTitle" placeholder="Enter course title" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="@Model.Description">Description:</label>
+                            <input type="text" asp-for="@Model.Description" placeholder="Please add a short description" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Duration">Course Duration:</label>
+                            <input type="text" asp-for="@Model.Duration" placeholder="Enter course duration" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Price">Price:</label>
+                            <input type="number" asp-for="@Model.Price" placeholder="0.00" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" asp-for="@Model.Picture">Upload Photo:</label>
+                            <input type="file" asp-for="@Model.Picture" />
+                        </div>
+                        <div class="modal-footer">
+                            <button  style="background: #E7AB3C !important; border: none;" type="submit" class="btn btn-primary">Save changes</button>
+                            <button style="background: darkred; border: none;" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    
+
+
+    @if (Model != null)
+    {
+        <script type="text/javascript">
+            $(function () {
+                alert("Created Course: " + @($"{Model.CourseTitle}"));
+            });
+        </script>
+    }
+
+    <div>
+       
+       
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                    <th>Students</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in courses)
+                {
+                    <tr>
+                        <td>@(count++)</td>
+                        <td id="productname">@course.Name</td>
+                        <td id="productprice">@(course.Description.Length <= 40 ? course.Description : course.Description.Substring(0, 40) + "...")</td>
+                        <td id="productquantity">@course.Duration</td>
+                        <td id="productquantity">$@course.Price.ToString("N2")</td>
+                        <td id="productmin">@course.Students.Count()</td>
+                        <td>
+                            <a asp-action="RemoveCourse" asp-controller="Courses" asp-route-id="@course.Id" onclick="confirm()" style="border: 1px solid darkred; padding:5px; border-radius:3px; cursor: pointer" title="Delete Course"><i style="color: darkred" class="fa fa-trash"></i></a>
+                            <a asp-route-id="@course.Id"
+                               style="border: 1px solid forestgreen; border-radius:3px; cursor: pointer; padding:5px;"
+                               title="Edit course"
+                               onclick="populate('@course.Id')"
+                               data-toggle="modal" data-target="#exampleModal1"><i style="color: forestgreen" class="fa fa-edit"></i></a>
+                            <a id="hot" asp-action="AddVideo" asp-controller="Tutorials" asp-route-id="@course.Id" style="border: 1px solid purple; border-radius:3px; cursor: pointer; padding:5px;" title="add video"><i style="color: cadetblue" class="fa fa-plus"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="~/js/product.js"></script>
+
+    @* <script>
+    $(document).ready(function() {
+    $('.custom-file-input').on("change", function() {
+    var filename = $(this).val().split("\\").pop();
+    $(this).next('.custom-file-label').html(filename);
+    });
+    });
+    </script>*@
+
+    <script>
+        $(document).ready(function () {
+            $('.custom-file-input').on("change", function () {
+                var filename = $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(filename);
+            });
+        });
+
+       
+    </script>
+    <script type="text/javascript">
+        function populate(e) {
+            var val = document.getElementById('identifier')
+            val.setAttribute('value', e)
+        }
+
+        setTimeout(() => {
+            const box = document.getElementById('response')
+            box.style.display = 'none'
+        }, 8000)
+
+        function confirm(){
+            alert('Are you sure you want to delete course? Remember this action is irreversible')
+        }
+        
+    </script>
+</div>
