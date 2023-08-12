@@ -1,22 +1,24 @@
-name: virtimus-CI
+name: CI
+
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    push:
+        branches: [ master ]
+    pull_request:
+        branches: [ master ]
+    workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.14 # This is the action
-        with:
-          heroku_api_key: e40220a2-b4d7-4645-9a68-cb7431d6d206
-          heroku_app_name: virtimus #Must be unique in Heroku
-          heroku_email: onimsi10@yahoo.com
-          justlogin: true
-          usedocker: true
-      - run: heroku auth:whoami
+    - uses: actions/checkout@v2
+    - name: Deploying virtimus website project
+      env:
+        HEROKU_API_KEY: ${{sectrets.HEROKU_API_KEY}}
+        APP_NAME: virtimus
+      run: |
+        docker build -t vimmvc .
+        docker tag vimmvc registry.heroku.com
+        sudo docker login --username=_ --password=${{secrets.HEROKU_API_KEY}} registry.heroku.com
+        heroku container:push web -a ${{sectrets.HEROKU_APP_NAME}}
+        heroku container:release web -a ${{sectrets.HEROKU_APP_NAME}}
