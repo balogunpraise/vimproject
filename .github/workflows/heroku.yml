@@ -1,4 +1,4 @@
-name: CI
+name: virtimus-CI
 
 on:
     push:
