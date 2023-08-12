@@ -47,5 +47,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
+var port = Convert.ToInt32(Environment.GetEnvironmentVariable("port") ?? "5199");
+app.Run("http://0.0.0.0:" + port);
