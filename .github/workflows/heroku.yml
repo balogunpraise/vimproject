@@ -51,7 +51,7 @@
 #       - run: heroku auth:whoami
 
 
-name: virtimus-project
+name: CI
 
 on:
   push:
