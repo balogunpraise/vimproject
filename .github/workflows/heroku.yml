@@ -19,7 +19,7 @@ jobs:
       run: |
         docker build -t vimmvc .
         docker tag vimmvc registry.heroku.com
-        sudo docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+        sudo docker login --username=_ --password=5c0c5722-b31c-4077-899a-9821b56de06c registry.heroku.com
         heroku container:push web -a $APP_NAME
         heroku container:release web -a $APP_NAME
 
