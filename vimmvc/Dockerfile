@@ -21,5 +21,4 @@ RUN dotnet publish "vimmvc.csproj" -c Release -o /app/publish /p:UseAppHost=fals
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-#ENTRYPOINT ["dotnet", "vimmvc.dll"]
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet vimmvc.dll
