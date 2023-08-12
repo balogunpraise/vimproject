@@ -67,7 +67,7 @@ jobs:
       env: 
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: heroku container:login 
-    - name: Deploying virtimus website project
+    - name: Login in to container registry
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: heroku container:push -a ${{ secrets.HEROKU_APP_NAME }} web 
