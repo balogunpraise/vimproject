@@ -16,16 +16,16 @@ builder.Services.AddInfrastructureConfiguration(builder.Configuration);
 var app = builder.Build();
 
 //seeding section
-var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
-using (var scope = scopeFactory.CreateScope())
-{
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+//var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+//using (var scope = scopeFactory.CreateScope())
+//{
+    //var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    //var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    //var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     //context.Database.MigrateAsync().Wait();
     //DbInitializer.SeedRoleAsync(context, roleManager).Wait();
     //DbInitializer.SeedUserAsync(context, userManager).Wait();
-}
+//}
 
 //seeding section ends
 
@@ -47,5 +47,9 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-var port = Environment.GetEnvironmentVariable("port") ?? "http://0.0.0.0:5199";
-app.Run(port);
+string? port = Environment.GetEnvironmentVariable("PORT");
+if (!string.IsNullOrEmpty(port))
+{
+    app.Urls.Add("http://*:" + port);
+}
+app.Run();
