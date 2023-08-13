@@ -21,17 +21,13 @@ namespace vimmvc.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index(string error)
+        public IActionResult Register(string errorMessage)
         {
-			if (error != null)
-			{
-				ViewBag.Error = error;
-			}
-			return View();
-		}
+            return View();
+        }
 
         [HttpPost]
-        public async Task<IActionResult> Register([FromForm]BigAuthViewModel model)
+        public async Task<IActionResult> Register([FromForm]SignupViewModel model)
         {
 			if (ModelState.IsValid)
 			{
@@ -40,18 +36,34 @@ namespace vimmvc.Controllers
 				if (response.Item1)
 					return RedirectToAction("Index", attachment + "Dashboard");
 			}
-			return RedirectToAction("Index", new { error = "Somethine went wrong" });
+			return RedirectToAction("Register", new { error = "Somethine went wrong" });
 		}
 
+        [HttpGet]
+        public IActionResult Login(string returnUrl = "")
+        {
+            var model = new LoginViewModel { ReturnUrl = returnUrl };
+            return View(model);
+        }
+
         [HttpPost]
-        public async Task<IActionResult> Login(BigAuthViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
                 var response = await _authServices.AuhenticateUserAsync(model);
                 string attachment = response.Item2 as string;
-                if (response.Item1)
-                    return RedirectToAction("Index", attachment + "Dashboard");
+                if (response.Item1) 
+                {
+					if (!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
+					{
+						return Redirect(model.ReturnUrl);
+					}
+					else
+					{
+						return RedirectToAction("Index", attachment + "Dashboard");
+					}
+				}  
             }
             return RedirectToAction("Index", new { error = "Somethine went wrong" });
         }

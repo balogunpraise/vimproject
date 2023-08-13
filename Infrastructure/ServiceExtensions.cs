@@ -14,7 +14,6 @@ namespace Infrastructure
 			var isDevelopment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Development";
 			var connectionString = isDevelopment ? config.GetConnectionString("DefaultConnection") : Environment.GetEnvironmentVariable("CONNECTION_STRING");
 			service.AddDbContext<ApplicationDbContext>(option =>
-			//option.UseMySql(connectionString, serverVersion: ServerVersion.AutoDetect(connectionString)));
 			option.UseNpgsql(connectionString));
 			service.AddTransient<TokenService>();
 			service.AddScoped<ICourseRepository, CourseRepository>();

@@ -24,21 +24,21 @@ namespace vimmvc.Services
         }
 
 
-		public async Task<(bool, string)> AuhenticateUserAsync(BigAuthViewModel login)
+		public async Task<(bool, string)> AuhenticateUserAsync(LoginViewModel login)
 		{
 			ApplicationUser user;
 			(bool succeeded, string role) response = (false, string.Empty); 
-			if (login.Login.EmailOrUserName.Contains('@') && login.Login.EmailOrUserName.Contains(".com"))
+			if (login.EmailOrUserName.Contains('@') && login.EmailOrUserName.Contains(".com"))
 			{
-				user = await _userManager.FindByEmailAsync(login.Login.EmailOrUserName);
+				user = await _userManager.FindByEmailAsync(login.EmailOrUserName);
 			}
 			else
 			{
-				user = await _userManager.FindByNameAsync(login.Login.EmailOrUserName);
+				user = await _userManager.FindByNameAsync(login.EmailOrUserName);
 			}
 			if (user != null)
 			{
-				var result = await _signInManager.PasswordSignInAsync(user, login.Login.Password, login.Login.RememberMe, false);
+				var result = await _signInManager.PasswordSignInAsync(user, login.Password, login.RememberMe, false);
 				if (result.Succeeded)
 				{
 					if (await _userManager.IsInRoleAsync(user, RoleConstants.Admin))
@@ -61,20 +61,20 @@ namespace vimmvc.Services
 			return response;
 		}
 
-		public async Task<(bool, string)> RegisterUserAsync(BigAuthViewModel model)
+		public async Task<(bool, string)> RegisterUserAsync(SignupViewModel model)
 		{
 			(bool succeeded, string role) response = (false, string.Empty);
-			var userExists = await _userManager.FindByEmailAsync(model.Signup.Email);
+			var userExists = await _userManager.FindByEmailAsync(model.Email);
 			if (userExists == null)
 			{
 				var user = new ApplicationUser
 				{
-					FirstName = model.Signup.FirstName,
-					LastName = model.Signup.LastName,
-					Email = model.Signup.Email,
-					UserName = !(model.Signup.UserName.IsNullOrEmpty()) ? model.Signup.UserName : model.Signup.Email,
+					FirstName = model.FirstName,
+					LastName = model.LastName,
+					Email = model.Email,
+					UserName = !(model.UserName.IsNullOrEmpty()) ? model.UserName : model.Email,
 				};
-				response.succeeded = (await _userManager.CreateAsync(user, model.Signup.Password)).Succeeded;
+				response.succeeded = (await _userManager.CreateAsync(user, model.Password)).Succeeded;
 				await _userManager.AddToRoleAsync(user, RoleConstants.Student);
 				response.role = RoleConstants.Student;
 				return response;

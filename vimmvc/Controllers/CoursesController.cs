@@ -1,5 +1,7 @@
-﻿using Core.Entities;
+﻿using Core.Application.Constants;
+using Core.Entities;
 using Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -86,7 +88,8 @@ namespace vimmvc.Controllers
 
 
         [HttpGet("enrol:{courseId}")]
-        public async Task<IActionResult> Enrol(string courseId)
+        [Authorize(Roles = RoleConstants.Student)]
+		public async Task<IActionResult> Enrol(string courseId)
         {
             var user = await _userManager.FindByIdAsync(UserId);
             var course = await _courseService.GetCourse(courseId);
@@ -99,7 +102,7 @@ namespace vimmvc.Controllers
                     Email = user.Email,
                     Reference = GenerateReference().ToString(),
                     Currency = "NGN",
-                    CallbackUrl = "https://localhost:7011/courses/verify"
+                    CallbackUrl = $"{Environment.GetEnvironmentVariable("APP_DOMAIN")}courses/verify"
 
                 };
                 TransactionInitializeResponse response = Paystack.Transactions.Initialize(request);
