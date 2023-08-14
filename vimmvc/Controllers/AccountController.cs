@@ -34,7 +34,8 @@ namespace vimmvc.Controllers
 				var response = await _authServices.RegisterUserAsync(model);
 				string attachment = response.Item2 as string;
 				if (response.Item1)
-					return RedirectToAction("Index", attachment + "Dashboard");
+					//return RedirectToAction("Index", attachment + "Dashboard");
+					return RedirectToAction("Login");
 			}
 			return RedirectToAction("Register", new { error = "Somethine went wrong" });
 		}
@@ -71,7 +72,7 @@ namespace vimmvc.Controllers
         public async Task<IActionResult> Logout()
         {
             await _authServices.LogoutAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Login");
         }
     }
 }
