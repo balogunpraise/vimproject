@@ -99,17 +99,17 @@
                       
                         <div class="form-group">
                             <label asp-for="@Model.CourseTitle">Course Title:</label>
-                            <input type="text" asp-for="@Model.CourseTitle" placeholder="Enter course title" />
+                            <input type="text" asp-for="@Model.CourseTitle" placeholder="Enter course title" required/>
                         </div>
 
                         <div class="form-group">
                             <label asp-for="@Model.Description">Description:</label>
-                            <input type="text" asp-for="@Model.Description" placeholder="Please add a short description" />
+                            <input type="text" asp-for="@Model.Description" placeholder="Please add a short description" required/>
                         </div>
 
                         <div class="form-group">
                             <label class="label" asp-for="@Model.Duration">Course Duration:</label>
-                            <input type="text" asp-for="@Model.Duration" placeholder="Enter course duration"/>
+                            <input type="text" asp-for="@Model.Duration" placeholder="Enter course duration" required/>
                         </div>
 
                         <div class="form-group">
@@ -123,7 +123,7 @@
 
                         <div class="form-group">
                             <label class="label" asp-for="@Model.Price">Price:</label>
-                            <input type="number" asp-for="@Model.Price" placeholder="0.00" />
+                            <input type="number" asp-for="@Model.Price" placeholder="0.00" required/>
                         </div>
 
                         <div class="form-group">
@@ -225,7 +225,7 @@
                         <td id="productname">@course.Name</td>
                         <td id="productprice">@(course.Description.Length <= 40 ? course.Description : course.Description.Substring(0, 40) + "...")</td>
                         <td id="productquantity">@course.Duration</td>
-                        <td id="productquantity">$@course.Price.ToString("N2")</td>
+                        <td id="productquantity">₦@course.Price.ToString("N2")</td>
                         <td id="productmin">@course.Students.Count()</td>
                         <td>
                             <a asp-action="RemoveCourse" asp-controller="Courses" asp-route-id="@course.Id" onclick="confirm()" style="border: 1px solid darkred; padding:5px; border-radius:3px; cursor: pointer" title="Delete Course"><i style="color: darkred" class="fa fa-trash"></i></a>

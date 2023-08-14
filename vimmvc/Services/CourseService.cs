@@ -59,11 +59,11 @@ namespace vimmvc.Services
             var course = await GetCourse(id);
             if(course != null)
             {
-                course.Name = input.CourseTitle;
-                course.Description = input.Description;
-                course.Duration = input.Duration;
-                course.Price = input.Price;
-                course.Difficulty = input.Difficulty;
+                course.Name = input.CourseTitle ?? course.Name;
+                course.Description = input.Description ?? course.Description;
+                course.Duration = input.Duration ?? course.Duration;
+                course.Price = input.Price == 0 ? course.Price : input.Price;
+                course.Difficulty = input.Difficulty ?? course.Difficulty;
                 course.DateUpdated = DateTime.Now;
             }
             var response = await _courseRepository.UpdateCourse(id, course);
