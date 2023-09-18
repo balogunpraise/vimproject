@@ -16,9 +16,10 @@ namespace vimmvc.Controllers.Dashboards
 			UserId = _contextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         }
         [Route("Index")]
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
-			return View();
+            ViewBag.MyCourses = await _courseService.GetStudentCourse(UserId);
+            return View();
 		}
 
 		public async Task<IActionResult> MyCourses()

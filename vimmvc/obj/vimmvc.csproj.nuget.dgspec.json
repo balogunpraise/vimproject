@@ -285,10 +285,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Braintree": {
-              "target": "Package",
-              "version": "[5.16.0, )"
-            },
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.20.0, )"

@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\menu2.png"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\pic.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pic.jpg"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\assets\\img\\profile.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\profile.jpg"
     },
@@ -283,6 +287,10 @@
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\studentarea.css",
+      "PackagePath": "staticwebassets\\css\\studentarea.css"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\style.css",
