@@ -56,7 +56,7 @@ namespace vimmvc.Controllers
                 var response = await _courseService.CreateCourse(input);
             }
             return RedirectToAction("CourseList", "AdminDashboard", new {message = "Course addes successfully"});
-            }
+        }
 
         public async Task<IActionResult> RemoveCourse(string id)
         {

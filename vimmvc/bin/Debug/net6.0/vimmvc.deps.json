@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "vimmvc/1.0.0": {
         "dependencies": {
-          "Braintree": "5.16.0",
           "CloudinaryDotNet": "1.20.0",
           "Core": "1.0.0",
           "Infrastructure": "1.0.0",

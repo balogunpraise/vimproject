@@ -1,6 +1,6 @@
 ﻿@using Core.Entities;
 @{
-	Layout = null;
+	Layout = "_StudentDashboardLayout";
 	var videos = ViewBag.Videos as string;
 	var message = "me";
 }
@@ -11,90 +11,65 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="~/css/watchstyle.css" />
-	<title>Videos</title>
 </head>
 <body>
-	<main class="container">
-		<section class="main-video">
-			@*<video src="https://res.cloudinary.com/dvoez6mj2/video/upload/v1682247630/Claire_de_Lune_-_Claude_Debussy_ds0pmt.mp4" controls autoplay></video>*@
-			<video src="" controls autoplay></video>
-			<h3 class="title">Title of the playing video.</h3>
-			
-		</section>
-		<section class="video-playlist">
-			<h3 class="title"><a asp-controller="StudentDashboard" asp-action="Index" class="link-button">Dashboard</a></h3>
-			<p>10 lessions &nbsp; &nbsp; 50m 48s</p>
-			<div class="videos"></div>
-		</section>
-	</main>
+
+	<div class="container2">
+		<div class="main-video">
+			<div class="video">
+				<video class="playing-vid" src="" controls autoplay></video>
+				<h3 class="title"></h3>
+			</div>
+		</div>
+		<div class="video-list">
+			@* <div class="vid active">
+				<video src="https://res.cloudinary.com/dvoez6mj2/video/upload/v1682249364/All_The_Things_You_Are_cmeifw.mp4"
+					   muted></video>
+				<h3 class="title">01. video title goes here</h3>
+			</div> *@	
+		</div>
+	</div>
+
+
+
 	<script>
 
-		const main_video = document.querySelector('.main-video video')
-		const main_video_title = document.querySelector('main-video .title')
-		const video_playlist = document.querySelector('.video-playlist .videos')
+		let main_video = document.querySelector('.playing-vid')
+		let main_video_title = document.querySelector(".title")
+		const video_playlist = document.querySelector('.video-list')
 
-		//let data = [
-		//	{
-		//		id: 'a0',
-		//		title: 'Ukwu\'s Perfomance',
-		//		name: 'https://res.cloudinary.com/dvoez6mj2/video/upload/v1682247630/Claire_de_Lune_-_Claude_Debussy_ds0pmt.mp4',
-		//		duration: '05:17',
-		//	},
-		//	{
-		//		id: 'a9',
-		//		title: 'All The Things You Are',
-		//		name: 'https://res.cloudinary.com/dvoez6mj2/video/upload/v1682249364/All_The_Things_You_Are_cmeifw.mp4',
-		//		duration: '2:46',
-		//	},
-		//	{
-		//		id: 'a1',
-		//		title: 'Ojuelegba - Afro-cuban style',
-		//		name: 'https://res.cloudinary.com/dvoez6mj2/video/upload/v1682249850/OJUELEGBA-WIZKID_AFRO-CUBAN_ARRANGEMENT_g4lw6d.mp4',
-		//		duration: '1:04',
-		//	},
-		//]
-
+		
 		let data = @Html.Raw(@videos);
-		//console.log(data)
-
 
 		data.forEach((video, i) => {
 			let video_element = `
-						<div class="video" data-id="${video.id}">
-							<img src="/img/play.png" alt="" />
-							<p>0${i + 1}</p>
-							<h3 class="title">${video.title}</h3>
-							<p class="time">${video.duration}</p>
+						<div class="vid" name="${video.Id}" data-id="${video.Id}">
+							<video src="${video.name}" muted></video>
+							<h3 class="title">${i + 1}. ${video.title}</h3>
 						</div>
 					`
 			video_playlist.innerHTML += video_element
 		})
 
-		let videos = document.querySelectorAll('.video')
+		let videos = document.querySelectorAll('.vid')
 		videos[0].classList.add('active')
-		videos[0].querySelector('img').src = '/img/pause.png'
+
+
 		videos.forEach((selected_video) => {
-			selected_video.onclick = () => {
+			selected_video.addEventListener("click", () => {
 				for (all_videos of videos) {
 					all_videos.classList.remove('active')
-					all_videos.querySelector('img').src = '/img/play.png'
 				}
 				selected_video.classList.add('active')
-				selected_video.querySelector('img').src = '/img/pause.png'
 
 				let match_video = data.find(
-					video => video.id == selected_video.dataset.Id
+					(video) => video.Id === `${selected_video.dataset.id}`
 				)
-				//console.log(match_video)
-				//main_video.src = '../assets/videos/' + match_video.name
-				main_video.src =  match_video.name
-				//console.log(main_video.src)
+
+				main_video.src =  `${match_video.name}`
 				main_video_title.innerHTML = match_video.title
-			}
+			})
 		})
-
-
-
 	</script>
 </body>
 </html>
