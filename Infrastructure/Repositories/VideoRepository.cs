@@ -33,5 +33,27 @@ namespace Infrastructure.Repositories
         {
             return await _context.TutorialVideos.Where(x => x.courseId == courseId).ToListAsync();
         }
+
+        public async Task<bool> DeleteVideo(string id)
+        {
+            try
+            {
+                var video = await _context.TutorialVideos.Where(x => x.Id == id).SingleOrDefaultAsync();
+                if(video != null)
+                {
+                    _context.TutorialVideos.Remove(video);
+                    await _context.SaveChangesAsync();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }

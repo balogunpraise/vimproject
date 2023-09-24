@@ -235,6 +235,7 @@
                                onclick="populate('@course.Id')"
                                data-toggle="modal" data-target="#exampleModal1"><i style="color: forestgreen" class="fa fa-edit"></i></a>
                             <a id="hot" asp-action="AddVideo" asp-controller="Tutorials" asp-route-id="@course.Id" style="border: 1px solid purple; border-radius:3px; cursor: pointer; padding:5px;" title="add video"><i style="color: cadetblue" class="fa fa-plus"></i></a>
+                            <a id="hot" asp-action="Index" asp-controller="Videos" asp-route-courseId="@course.Id" style="border: 1px solid purple; border-radius:3px; cursor: pointer; padding:5px;" title="view video"><i style="color: cadetblue" class="fa fa-eye"></i></a>
                         </td>
                     </tr>
                 }

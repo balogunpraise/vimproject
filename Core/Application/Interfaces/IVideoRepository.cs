@@ -11,5 +11,6 @@ namespace Core.Application.Interfaces
     {
         Task<bool> AddVideo(TutorialVideos videos);
         Task<ICollection<TutorialVideos>> GetCourseVideos(string courseId);
+        Task<bool> DeleteVideo(string id);
     }
 }
