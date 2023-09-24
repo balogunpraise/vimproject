@@ -1,0 +1,106 @@
+﻿@{
+    Layout = "_GlobalAdminLayout";
+    var videos = ViewBag.videos;
+}
+
+
+<style>
+    @@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Moon+Dance&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500&family=Work+Sans:wght@100;300;400;500;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .video-flex-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px;
+        height: 500px;
+        overflow-y: scroll;
+    }
+
+        .video-flex-container .vid-flex-item {
+            width: 250px;
+            height: 200px;
+            position: relative;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            border-radius: 10px;
+
+        }
+
+            .video-flex-container .vid-flex-item .vid-flex-item-inner {
+                height: 60%;
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+
+                .video-flex-container .vid-flex-item .vid-flex-item-inner img {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+/*     .vid-flex-item-text {
+        line-height: 10px;
+    } */
+
+        .vid-flex-item-text p {
+            color: #60628e;
+            font-size: 0.7rem;
+            /* line-height: 15px; */
+        }
+
+        .vid-flex-item-text h4{
+            font-size: 16px;
+        }
+
+        .vid-flex-item-actions {
+        display: flex;
+        width: 60px;
+        height: 30px;
+        padding: 5px;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        position: absolute;
+        bottom: 30px;
+        right: 5px;
+    }
+
+</style>
+
+
+<body>
+    <div class="video-flex-container">
+        @foreach(var video in videos)
+        {
+            <div class="vid-flex-item">
+                <div class="vid-flex-item-inner">
+                    <img src="./img/guitar.png" alt="alt" />
+                </div>
+                <div class="item-and-action" style="padding: 5px;">
+                    <div class="vid-flex-item-text">
+                        <h4 class="vid-title">@video.title</h4>
+                        <p style="margin-bottom: 30px;">
+                            @video.duration
+                        </p>
+                      
+                    </div>
+                    <div class="vid-flex-item-actions">
+                        <a asp-action="" asp-controller="Videos" asp-route-vidId="@video.Id"><i style="color: red" class="bi bi-archive-fill"></i></a>
+                        <a asp-action="" asp-controller="Videos" asp-route-courseId=""><i class="bi bi-pencil-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>

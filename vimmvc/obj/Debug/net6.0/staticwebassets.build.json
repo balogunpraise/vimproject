@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GdD1jy81oG3XWB3a4H0ivuyV7pFNv+pRh0RWfVuaWpk=",
+  "Hash": "DOPyzT9tmW0hAkViSyUs2nwwC90ryX2GtHBksfSGTbw=",
   "Source": "vimmvc",
   "BasePath": "_content/vimmvc",
   "Mode": "Default",
@@ -1290,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\video-list.css",
+      "SourceId": "vimmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\",
+      "BasePath": "_content/vimmvc",
+      "RelativePath": "css/video-list.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\video-list.css"
     },
     {
       "Identity": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\watchstyle.css",

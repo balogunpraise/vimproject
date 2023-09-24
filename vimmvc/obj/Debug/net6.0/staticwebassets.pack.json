@@ -297,6 +297,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\video-list.css",
+      "PackagePath": "staticwebassets\\css\\video-list.css"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\watchstyle.css",
       "PackagePath": "staticwebassets\\css\\watchstyle.css"
     },
