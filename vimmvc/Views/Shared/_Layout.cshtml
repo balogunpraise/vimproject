@@ -42,7 +42,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a asp-controller="Home" asp-action="Index" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <img src="img/logo.jpg" alt="" style="width: 80px; height: 80px;" /><h2 class="m-0">V.I.M</h2>
+            @* <img src="img/logo.jpg" alt="" style="width: 80px; height: 80px;" /> *@<h2 class="m-0">V.I.M</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a asp-action="Index" asp-controller="Shop" class="dropdown-item">Music Store</a>
                         @*<a asp-controller="Tutorials" asp-action="Watch" class="dropdown-item">Watch</a>*@
-                        @*<a href="appointment.html" class="dropdown-item">VIM Curriculum</a>*@
+                        <a href="appointment.html" class="dropdown-item">VIM Curriculum</a>
                         <a href="team.html" class="dropdown-item">Events</a>
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
