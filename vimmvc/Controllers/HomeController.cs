@@ -19,6 +19,12 @@ namespace vimmvc.Controllers
         }
 
         [HttpGet]
+        public IActionResult NewIndex()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult Privacy()
         {
             return View();

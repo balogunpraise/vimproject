@@ -289,6 +289,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\css\\studentarea.css",
       "PackagePath": "staticwebassets\\css\\studentarea.css"
     },
@@ -321,16 +325,16 @@
       "PackagePath": "staticwebassets\\img\\Picture2.png"
     },
     {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\XCLUSIVE-1.JPG",
-      "PackagePath": "staticwebassets\\img\\XCLUSIVE-1.JPG"
-    },
-    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\about-1.jpg",
       "PackagePath": "staticwebassets\\img\\about-1.jpg"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\about-2.jpg",
       "PackagePath": "staticwebassets\\img\\about-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\afican.webp",
+      "PackagePath": "staticwebassets\\img\\afican.webp"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\astra.png",
@@ -341,14 +345,6 @@
       "PackagePath": "staticwebassets\\img\\busy.jpg"
     },
     {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\carousel-1.jpg",
-      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\carousel-2.jpg",
-      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
-    },
-    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\circle-play.gif",
       "PackagePath": "staticwebassets\\img\\circle-play.gif"
     },
@@ -357,16 +353,12 @@
       "PackagePath": "staticwebassets\\img\\collection.jpg"
     },
     {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-1.jpg",
-      "PackagePath": "staticwebassets\\img\\courses-1.jpg"
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\cta-vector.svg",
+      "PackagePath": "staticwebassets\\img\\cta-vector.svg"
     },
     {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-2.jpg",
-      "PackagePath": "staticwebassets\\img\\courses-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\courses-3.jpg",
-      "PackagePath": "staticwebassets\\img\\courses-3.jpg"
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\departmets-vector.svg",
+      "PackagePath": "staticwebassets\\img\\departmets-vector.svg"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\guitar.jpg",
@@ -377,20 +369,56 @@
       "PackagePath": "staticwebassets\\img\\guitar.png"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\instructor-vactor-1.svg",
+      "PackagePath": "staticwebassets\\img\\instructor-vactor-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\instructor-vactor-2.svg",
+      "PackagePath": "staticwebassets\\img\\instructor-vactor-2.svg"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\jazz.jpg",
       "PackagePath": "staticwebassets\\img\\jazz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\jc.webp",
+      "PackagePath": "staticwebassets\\img\\jc.webp"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\jz.webp",
+      "PackagePath": "staticwebassets\\img\\jz.webp"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\logo.jpg"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\miles-david.jpg",
+      "PackagePath": "staticwebassets\\img\\miles-david.jpg"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\musicians.png",
       "PackagePath": "staticwebassets\\img\\musicians.png"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\p_paul.png",
+      "PackagePath": "staticwebassets\\img\\p_paul.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\p_peter.png",
+      "PackagePath": "staticwebassets\\img\\p_peter.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\p_ukwu.png",
+      "PackagePath": "staticwebassets\\img\\p_ukwu.png"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\paul.jpg",
       "PackagePath": "staticwebassets\\img\\paul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\paul2.png",
+      "PackagePath": "staticwebassets\\img\\paul2.png"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\pause.png",
@@ -409,40 +437,24 @@
       "PackagePath": "staticwebassets\\img\\second_pic (2).jpg"
     },
     {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-1.jpg",
-      "PackagePath": "staticwebassets\\img\\team-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-2.jpg",
-      "PackagePath": "staticwebassets\\img\\team-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-3.jpg",
-      "PackagePath": "staticwebassets\\img\\team-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\team-4.jpg",
-      "PackagePath": "staticwebassets\\img\\team-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-1.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-2.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\testimonial-3.jpg",
-      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
-    },
-    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\trumpet.png",
       "PackagePath": "staticwebassets\\img\\trumpet.png"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\trumpet_class.png",
       "PackagePath": "staticwebassets\\img\\trumpet_class.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\u_afican.png",
+      "PackagePath": "staticwebassets\\img\\u_afican.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\u_classical.png",
+      "PackagePath": "staticwebassets\\img\\u_classical.png"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\u_jazz.png",
+      "PackagePath": "staticwebassets\\img\\u_jazz.png"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\ukwu.jpeg",
@@ -457,12 +469,20 @@
       "PackagePath": "staticwebassets\\img\\vocal.jpg"
     },
     {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\img\\xclusive.jpg",
+      "PackagePath": "staticwebassets\\img\\xclusive.jpg"
+    },
+    {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\account.js",
       "PackagePath": "staticwebassets\\js\\account.js"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\pbalogun\\Desktop\\vimmvc\\vimmvc\\wwwroot\\js\\watch.js",
