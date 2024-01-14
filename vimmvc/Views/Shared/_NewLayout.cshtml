@@ -17,7 +17,7 @@
 
             <div class="overlay" data-overlay></div>
 
-            <a href="#" class="logo">
+            <a asp-action="NewIndex" asp-controller="Home" class="logo">
                 @* <img src="~/img/logo.jpg" alt="Eduland logo" width="50" height="100"> *@
                 <h1 class="h2 about-title" style="margin-bottom: 0px; color: teal;">V.I.M</h1>
             </a>
@@ -33,13 +33,13 @@
                 </button>
 
                 <a href="#" class="logo">
-                    <img src="./assets/images/logo.svg" alt="Eduland logo">
+                    <img src="~/img/logo.jpg" alt="VIM logo">
                 </a>
 
                 <ul class="navbar-list">
 
                     <li>
-                        <a asp-controller="Home" asp-action="NewIndex" class="navbar-link">Home</a>
+                        <a asp-controller="Curriculum" asp-action="Index" class="navbar-link">VIM Curriculum</a>
                     </li>
 
                     <li>
@@ -52,7 +52,7 @@
                     <partial name="_LoginPartial" />
                 </ul>
 
-                <a asp-action="Register" asp-controller="Account" class="btn btn-secondary">Get Started</a>
+                <a asp-action="Index" asp-controller="Event" class="btn btn-secondary">V.I.M Events</a>
 
             </nav>
 
