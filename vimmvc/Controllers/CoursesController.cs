@@ -140,7 +140,7 @@ namespace vimmvc.Controllers
                     await _context.SaveChangesAsync();
                     var enrolresponse = await _courseService.Enrol(UserId, _courseId);
                     if (enrolresponse)
-                        return RedirectToAction("MyCourses", "StudentDashboard", new { id = UserId });
+                        return RedirectToAction("MyCourses", "Index", new { id = UserId });
                 }
             }
             return RedirectToAction("ActionError", "Error", new { message = "Payment was not verified successfully" });
